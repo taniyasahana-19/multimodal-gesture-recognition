@@ -67,7 +67,6 @@ gesture-recognition/
 └── .gitignore                 # Git ignore file
 
 ---
-
 ##  Contributors
 
 **Taniya Sahana**  
