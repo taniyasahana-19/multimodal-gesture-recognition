@@ -1,6 +1,7 @@
 
-
+<div style="text-align: justify;">
 Hand gesture recognition is a key component of vision-based human computer interaction with applications in sign language interpretation and assistive technologies. Despite advances in deep learning, the performance of convolutional neural networks (CNNs) varies considerably across architectures, datasets, and input modalities. In this study, we provide a systematic comparative evaluation of three widely used CNNs, VGG19, InceptionV3, and MobileNetV2, across six publicly available hand gesture datasets (ASL Fingerspelling, OUHANDS, JU-V2 Digit, JU-V2 Alphabet, NUS-II, and MUGD) using RGB, depth, and RGB-D inputs where applicable. Comprehensive data augmentation, including rotation, translation, shear, zoom, and horizontal flipping, is applied to enhance robustness. Model performance is quantitatively assessed using accuracy, precision, recall, and F-score, offering objective insights into the relative suitability of different CNN architectures and modalities for hand gesture recognition tasks.
+</div>
 
 ## Datasets
 - ASL Fingerspelling
