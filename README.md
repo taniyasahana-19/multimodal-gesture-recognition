@@ -1,13 +1,11 @@
 
-# Multi‑Dataset Hand Gesture Recognition (PyTorch)
-
 ## Datasets
-- ASL Fingerspelling (24 classes)
-- OUHANDS (10 classes)
-- JU_V2_DIGIT (0–9)
-- JU_V2_ALPHA (24 classes)
-- NUS‑II (10 classes)
-- MUGD (36 classes)
+- ASL Fingerspelling 
+- OUHANDS 
+- JU_V2_DIGIT 
+- JU_V2_ALPHA 
+- NUS‑II 
+- MUGD 
 
 ## Models
 - VGG19
@@ -27,13 +25,10 @@
 - Horizontal Flip
 
 ## Metrics
-Accuracy, Precision, Recall, F1‑Score (4 decimals)
+Accuracy, Precision, Recall, F‑Score 
 
 ## Training Policy
 - OUHANDS: Predefined train/test split
 - Others: Runtime train/validation split
 
-Run:
-```bash
-python main.py --dataset ASL --model mobilenetv2 --mode rgb
-```
+
