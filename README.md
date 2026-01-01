@@ -65,9 +65,11 @@ gesture-recognition/
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # Project documentation
 └── .gitignore                 # Git ignore file
+```
 
 ---
-##  Contributors
+
+## Contributors
 
 **Taniya Sahana**  
 Research Scholar, Department of Computer Science and Engineering,  
@@ -76,8 +78,8 @@ Aliah University, Kolkata, India
 **Dr. Ayatullah Faruk Mollah**  
 Assistant Professor, Department of Computer Science and Engineering,  
 Aliah University, Kolkata, India 
----
 
+---
 ##  Contact
 - **Taniya Sahana**, Email: [taniyaswork@gmail.com](mailto:taniyaswork@gmail.com)
 - **Dr. Ayatullah Faruk Mollah**, Email: [afmollah@aliah.ac.in](mailto:afmollah@aliah.ac.in)  
