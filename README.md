@@ -1,13 +1,14 @@
+# Hand Gesture Recognition Using Deep Learning
 
-Hand gesture recognition is a key component of vision-based human computer interaction with applications in sign language interpretation and assistive technologies. Despite advances in deep learning, the performance of convolutional neural networks (CNNs) varies considerably across architectures, datasets, and input modalities. In this study, we provide a systematic comparative evaluation of three widely used CNNs, VGG19, InceptionV3, and MobileNetV2, across six publicly available hand gesture datasets (ASL Fingerspelling, OUHANDS, JU-V2 Digit, JU-V2 Alphabet, NUS-II, and MUGD) using RGB, depth, and RGB-D inputs where applicable. Comprehensive data augmentation, including rotation, translation, shear, zoom, and horizontal flipping, is applied to enhance robustness. Model performance is quantitatively assessed using accuracy, precision, recall, and f-score, offering objective insights into the relative suitability of different CNN architectures and modalities for hand gesture recognition tasks.
+Hand gesture recognition is a key component of vision-based human computer interaction with applications in sign language interpretation and assistive technologies. Despite advances in deep learning, the performance of convolutional neural networks (CNNs) varies considerably across architectures, datasets, and input modalities. In this study, we provide a systematic comparative evaluation of three widely used CNNs, VGG19, InceptionV3, and MobileNetV2, across six publicly available hand gesture datasets (ASL Fingerspelling, OUHANDS, JU-V2 Digit, JU-V2 Alphabet, NUS-II, and MUGD) using RGB, depth, and RGB-D inputs where applicable. Comprehensive data augmentation, including rotation, translation, shear, zoom, and horizontal flipping, is applied to enhance robustness. Model performance is quantitatively assessed using accuracy, precision, recall, and F-score, offering objective insights into the relative suitability of different CNN architectures and modalities for hand gesture recognition tasks.
 
 ## Datasets
-- ASL Fingerspelling 
-- OUHANDS 
-- JU_V2_DIGIT 
-- JU_V2_ALPHA 
-- NUS‑II 
-- MUGD 
+- ASL Fingerspelling
+- OUHANDS
+- JU_V2_DIGIT
+- JU_V2_ALPHA
+- NUS‑II
+- MUGD
 
 ## Models
 - VGG19
@@ -27,13 +28,14 @@ Hand gesture recognition is a key component of vision-based human computer inter
 - Horizontal Flip
 
 ## Metrics
-Accuracy, Precision, Recall, F‑Score 
+- Accuracy, Precision, Recall, F‑Score
 
 ## Training Policy
 - OUHANDS: Predefined train/test split
 - Others: Runtime train/validation split
 
 ## Repository Structure
+```text
 gesture-recognition/
 │
 ├── datasets/                  # Dataset directories (not included in repo)
@@ -63,17 +65,3 @@ gesture-recognition/
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # Project documentation
 └── .gitignore                 # Git ignore file
-
-##Contributors
-Taniya Sahana
-Research Scholar, Department of Computer Science and Engineering,
-Aliah University, Kolkata, India
-
-Dr. Ayatullah Faruk Mollah
-Assistant Professor, Department of Computer Science and Engineering,
-Aliah University, Kolkata, India
-
-##Contact
-Taniya Sahana, Email: taniyaswork@gmail.com
-Dr. Ayatullah Faruk Mollah, Email: afmollah@aliah.ac.in
-
